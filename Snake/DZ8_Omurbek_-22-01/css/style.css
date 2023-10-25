@@ -1,0 +1,53 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.modal {
+    width: 608px;
+    height: 608px;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+span {
+    padding-left: 170px;
+    text-align: center;
+    color: #3df60a;
+    font-size: 50px;
+    font-family: Arial;
+}
+
+button {
+    width: 608px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    font-family: monospace;
+    background-color: #fac906;
+}
+
+
+h3 {
+    padding-bottom: 300px;
+    text-align: center;
+    color: #3df60a;
+    font-size: 150px;
+    margin-bottom: 100px;
+}
