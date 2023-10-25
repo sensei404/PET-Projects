@@ -10,7 +10,7 @@ document.onkeydown = (e) =>
 
 document.onclick = (e) =>
 {
-    // console.log(e.target.dataset);
+    // console.log(e.Target.dataset);
     const type = e.target.dataset.type
     if (type === 'lock') {
         const node = e.target.tagName.toLowerCase() === 'i'
